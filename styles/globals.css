@@ -4,8 +4,8 @@ html {
 }
 
 iframe {
-  overflow: hidden; /* Add this line to hide scrollbars */  
-
+  overflow-y: scroll; /* Add this line to hide scrollbars */  
+  overflow-x: hidden;
 }
 
 body {    
