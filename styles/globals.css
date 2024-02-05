@@ -1,6 +1,6 @@
 html {
-  overflow: hidden; /* Add this line to hide scrollbars */  
-
+  overflow-y: scroll; /* Add this line to hide scrollbars */  
+  overflow-x: hidden;
 }
 
 iframe {
@@ -13,8 +13,9 @@ body {
   margin: 0px !important;    
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,    
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;    
-  overflow: hidden; /* Add this line to hide scrollbars */  
-}    
+    overflow-y: scroll; /* Add this line to hide scrollbars */  
+    overflow-x: hidden;
+  }    
     
 a {    
   color: inherit;    
