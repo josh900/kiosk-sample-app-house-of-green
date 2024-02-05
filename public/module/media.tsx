@@ -40,7 +40,8 @@ const Media = ({ mediaUrl }: { mediaUrl: string }) => {
           position: 'absolute',   
           top: 0,   
           left: 0   
-        }}        
+        }}  
+        scrolling="yes"       
       />        
       <iframe        
         src="https://thehouseofgreen.wm.store/"        
@@ -58,6 +59,7 @@ const Media = ({ mediaUrl }: { mediaUrl: string }) => {
           top: 0,   
           left: 0   
         }}        
+        scrolling="yes" 
       />        
       <Box        
         sx={{        
