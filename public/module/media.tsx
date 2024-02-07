@@ -28,7 +28,7 @@ const Media = ({ mediaUrl }: { mediaUrl: string }) => {
         className="firstframe"  
         src={`https://aws-amplify-signage-player.vercel.app/?playlist_id=${playlistId}&backend_url=https://api-v2.skoopsignage.app`}        
         width="100%"        
-        height="99999px"        
+        height="100%"        
         title="Web Player"        
         style={{   
           opacity: displayMediaUrl ? 0 : 1,   
