@@ -12,7 +12,7 @@ async function createMedia(url: string, title: string) {
   console.log("Created media:", media);
 }
 
-createMedia('"https://thehouseofgreen.wm.store"', "Media")
+createMedia('"https://getqualityroots.com/quality-roots-berkley/shop/"', "Media")
   .catch((error) => {
     console.error(error);
   })
