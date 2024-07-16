@@ -9,7 +9,7 @@ const Media = ({ mediaUrl }: { mediaUrl: string }) => {
     setDisplayMediaUrl(true);        
     const timer = setTimeout(() => {        
       setDisplayMediaUrl(false);        
-    }, 720000); // milliseconds  
+    }, 240000); // milliseconds  
         
     return () => clearTimeout(timer);        
   };        
